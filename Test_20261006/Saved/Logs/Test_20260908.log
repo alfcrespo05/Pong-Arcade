@@ -26218,3 +26218,38 @@ Stack:
 [2026.10.25-00.10.22:737][895]LogWorld: UWorld::CleanupWorld for World_310, bSessionEnded=true, bCleanupResources=true
 [2026.10.25-00.10.22:737][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.10.25-00.10.23:110][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2026.10.25-00.10.50:843][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2026.10.25-00.10.50:927][844]LogStall: Shutdown...
+[2026.10.25-00.10.50:932][844]LogStall: Shutdown complete.
+[2026.10.25-00.10.50:951][844]LogSlate: Window 'Test_20260908 - Unreal Editor' being destroyed
+[2026.10.25-00.10.57:132][844]Cmd: QUIT_EDITOR
+[2026.10.25-00.10.57:132][845]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.25-00.10.57:139][845]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.25-00.10.57:140][845]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.25-00.10.57:140][845]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.25-00.10.57:158][845]LogWorld: UWorld::CleanupWorld for Baloncesto, bSessionEnded=true, bCleanupResources=true
+[2026.10.25-00.10.57:159][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.25-00.10.57:159][845]LogMovieScene: USequencerBakeSubsystem subsystem deinitialized.
+[2026.10.25-00.10.57:175][845]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.25-00.10.57:212][845]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.25-00.10.57:705][845]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.10.25-00.10.57:705][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.25-00.10.57:712][845]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.10.25-00.10.57:712][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.25-00.10.57:720][845]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.10.25-00.10.57:720][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.25-00.10.57:727][845]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2026.10.25-00.10.57:727][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.25-00.10.57:737][845]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.25-00.10.57:741][845]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.25-00.10.58:360][845]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerWasapi)...
+[2026.10.25-00.10.58:360][845]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.25-00.10.58:360][845]LogAudio: Display: Audio Device unregistered from world 'Baloncesto'.
+[2026.10.25-00.10.58:360][845]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.25-00.10.58:360][845]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=1, StreamState=4
+[2026.10.25-00.10.58:373][845]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.25-00.10.58:383][845]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.25-00.10.58:383][845]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.25-00.10.58:395][845]LogWindowsTextInputMethodSystem: Activated input method: Spanish (Spain, International Sort) - (Keyboard).
+[2026.10.25-00.10.58:403][845]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.25-00.10.58:406][845]LogExit: Preparing to exit.
