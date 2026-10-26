@@ -2937,3 +2937,1730 @@ LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2026.10.26-19.14.57:823][918]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
 [2026.10.26-19.14.57:823][918]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
 [2026.10.26-19.14.57:877][918]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: ================================================
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Total job queries 2560, among them cache hits 161 (6.29%), DDC hits 1725 (67.38%), Duplicates 629 (24.57%)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Tracking 1770 distinct input hashes that result in 1212 distinct outputs (68.47%)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: RAM used: 13,41 MiB of 1,60 GiB budget. Usage: 0.82%
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Shaders Compiled: 45
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Jobs assigned 45, completed 45 (100%)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Average time worker was idle: 143.49 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.19 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Job execution time: average 1.02 s, max 2.21 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Job life time (pending + execution): average 1.11 s, max 2.22
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Shader code size: total 427,271 KiB, numShaders 45, average 9,494 KiB, min 2,98 KiB, max 25,527 KiB
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.67 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Jobs were issued in 45 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Average processing rate: 5.19 jobs/sec
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Total thread time: 25,483 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Total thread preprocess time: 70,133 s
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Percentage time preprocessing: 275.22%
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Effective parallelization: 2.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.183660
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.19 sec, max 1.19 sec, min 1.19 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    8 times, average 1.10 sec, max 1.35 sec, min 0.81 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 1.02 sec, max 1.10 sec, min 0.94 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 0.99 sec, max 0.99 sec, min 0.99 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 34.66% of total time (compiled    8 times, average 1.10 sec, max 1.35 sec, min 0.81 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.68% of total time (compiled    7 times, average 0.46 sec, max 0.64 sec, min 0.31 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.58% of total time (compiled    8 times, average 0.37 sec, max 0.53 sec, min 0.24 sec)
+[2026.10.26-19.16.15:668][958]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.00% of total time (compiled    2 times, average 1.02 sec, max 1.10 sec, min 0.94 sec)
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.48% of total time (compiled    6 times, average 0.32 sec, max 0.39 sec, min 0.27 sec)
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: === Material stats ===
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Materials Translated:    170
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Material Translation Only: 0.08 s (53%)
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.26-19.16.15:669][958]LogShaderCompilers: Display: ================================================
+[2026.10.26-19.18.57:506][151]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 707.570190
+[2026.10.26-19.18.57:648][165]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-19.18.57:649][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 707.701477, Update Interval: 341.822571
+[2026.10.26-19.24.44:105][ 66]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1054.168213
+[2026.10.26-19.24.44:242][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-19.24.44:242][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1054.296875, Update Interval: 326.457703
+[2026.10.26-19.27.10:631][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.10.26-19.27.10:634][736]LogStreaming: Display: FlushAsyncLoading(386): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.26-19.27.10:665][736]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.27.10:671][736]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MiniGolf.MiniGolf
+[2026.10.26-19.27.10:671][736]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.10.26-19.27.10:703][736]LogWorld: UWorld::CleanupWorld for Pong, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.27.10:703][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.27.10:736][736]LogAudio: Display: Audio Device unregistered from world 'Pong'.
+[2026.10.26-19.27.10:739][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.26-19.27.10:742][736]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.27.10:742][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.27.10:771][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.10.26-19.27.10:868][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.26-19.27.10:898][736]LogAudio: Display: Audio Device (ID: 1) registered with world 'MiniGolf'.
+[2026.10.26-19.27.10:898][736]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.27.10:919][736]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.10.26-19.27.10:954][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.10.26-19.27.10:964][736]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.10.26-19.27.10:964][736]MapCheck: Verificación de mapa completa: 0 errores, 0 advertencias. Ha tardado 0,083 ms en completarse.
+[2026.10.26-19.27.11:075][738]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.27.11:325][758]LogPSOHitching: Encountered 350 PSO creation hitches so far (136 graphics, 214 compute). 0 of them were precached.
+[2026.10.26-19.28.07:596][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.28.07:654][762]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.28.07:654][762]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.28.07:654][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.28.07:654][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.28.07:712][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.10.26-19.28.07:746][762]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.28.07:747][762]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolfD30BC8E6457FC0B26B1636A7C630B499.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.28.07:777][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.734 ms (total: 728.648 ms)
+[2026.10.26-19.28.07:835][762]LogContentValidation: Enabled validators:
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.28.07:835][762]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.28.07:835][762]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.28.07:835][762]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.28.07:835][762]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.28.07:835][762]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.28.07:835][762]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.28.07:835][762]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.28.07:835][762]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.28.07:835][762]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.28.07:836][762]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.28.07:836][762]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.28.07:836][762]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.28.07:836][762]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.28.07:836][762]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.28.10:444][ 26]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.28.10:454][ 26]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.28.10:454][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.28.10:454][ 26]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.28.10:463][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008533s)
+[2026.10.26-19.28.10:463][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008592s)
+[2026.10.26-19.28.10:489][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.10.26-19.28.10:493][ 26]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.28.10:496][ 26]LogPlayLevel: PIE: World Init took: (0.002934s)
+[2026.10.26-19.28.10:496][ 26]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.28.10:496][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.28.10:496][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.28.10:496][ 26]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.28.10:496][ 26]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.28.10:496][ 26]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.28.10:496][ 26]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.28.10:502][ 26]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.28.10:504][ 26]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.28.10:506][ 26]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.28.10:514][ 26]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.28.10:515][ 26]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.28.10:515][ 26]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.28.10:516][ 26]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.28.10:531][ 26]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.28.10:531][ 26]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.28.10:531][ 26]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.28.10:531][ 26]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.28.10:532][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.28.10:532][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.28.10:532][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.28.10:533][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.10.26-19.28.10:537][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.10.26-19.28.10:542][ 26]LogInit: FAudioDevice initialized with ID 6.
+[2026.10.26-19.28.10:542][ 26]LogAudio: Display: Audio Device (ID: 6) registered with world 'MiniGolf'.
+[2026.10.26-19.28.10:542][ 26]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.10.26-19.28.10:543][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.28.10:548][ 26]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.28.10:550][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.28.10
+[2026.10.26-19.28.10:550][ 26]LogWorld: Bringing up level for play took: 0.001878
+[2026.10.26-19.28.10:555][ 26]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.10.26-19.28.10:555][ 26]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.28.10:558][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.28.10:558][ 26]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.28.10:562][ 26]PIE: Tiempo de inicio total de la reproducción en el editor de 0,109 segundos.
+[2026.10.26-19.28.10:614][ 27]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.28.34:764][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.28.34:764][916]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.28.34:764][916]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.28.34:765][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.28.34:768][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.28.34:770][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.28.34:802][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.28.34:802][916]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.10.26-19.28.34:803][916]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=6, StreamState=4
+[2026.10.26-19.28.34:816][916]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.28.34:824][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.26-19.28.34:932][917]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2026.10.26-19.29.07:060][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.29.07:121][268]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.29.07:121][268]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.29.07:121][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.29.07:122][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.29.07:177][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.26-19.29.07:209][268]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.29.07:210][268]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolf8A77CF8B48CA2BA0014CECA2981E1222.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.29.07:238][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.396 ms (total: 907.044 ms)
+[2026.10.26-19.29.07:300][268]LogContentValidation: Enabled validators:
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.29.07:300][268]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.29.07:302][268]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.29.07:302][268]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.29.07:302][268]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.29.07:302][268]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.29.07:302][268]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.29.07:302][268]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.29.08:468][383]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.29.08:479][383]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.29.08:479][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.29.08:479][383]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.29.08:487][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008409s)
+[2026.10.26-19.29.08:487][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008469s)
+[2026.10.26-19.29.08:515][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.10.26-19.29.08:516][383]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.29.08:519][383]LogPlayLevel: PIE: World Init took: (0.002797s)
+[2026.10.26-19.29.08:519][383]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.29.08:519][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.29.08:519][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.29.08:519][383]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.29.08:519][383]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.29.08:519][383]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.29.08:519][383]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.29.08:525][383]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.08:527][383]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.08:528][383]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.08:537][383]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.29.08:537][383]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.29.08:537][383]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.29.08:539][383]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.29.08:549][383]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.29.08:549][383]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.29.08:549][383]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.29.08:549][383]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.29.08:549][383]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.29.08:549][383]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.29.08:549][383]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.29.08:550][383]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.10.26-19.29.08:555][383]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.10.26-19.29.08:559][383]LogInit: FAudioDevice initialized with ID 7.
+[2026.10.26-19.29.08:560][383]LogAudio: Display: Audio Device (ID: 7) registered with world 'MiniGolf'.
+[2026.10.26-19.29.08:560][383]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.26-19.29.08:560][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.08:566][383]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.29.08:567][383]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.29.08
+[2026.10.26-19.29.08:568][383]LogWorld: Bringing up level for play took: 0.001901
+[2026.10.26-19.29.08:572][383]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.10.26-19.29.08:573][383]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.29.08:576][383]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.29.08:576][383]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.29.08:579][383]PIE: Tiempo de inicio total de la reproducción en el editor de 0,101 segundos.
+[2026.10.26-19.29.08:631][384]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.29.14:414][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.14:414][ 71]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.29.14:414][ 71]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.29.14:415][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.29.14:416][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.29.14:420][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.29.14:448][ 71]LogAudio: Display: Audio Device unregistered from world 'MiniGolf'.
+[2026.10.26-19.29.14:448][ 71]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.26-19.29.14:449][ 71]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=7, StreamState=4
+[2026.10.26-19.29.14:461][ 71]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.29.14:466][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.14:469][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.26-19.29.14:558][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.10.26-19.29.23:267][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.29.23:321][982]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.29.23:322][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.29.23:322][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.29.23:322][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.29.23:373][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.26-19.29.23:405][982]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.29.23:406][982]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolfF737806F4E9B3ABD468F68B498C07ECD.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.29.23:433][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.457 ms (total: 1.07 sec)
+[2026.10.26-19.29.23:504][982]LogContentValidation: Enabled validators:
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.29.23:504][982]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.29.23:504][982]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.29.23:504][982]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.29.23:505][982]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.29.23:505][982]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.29.23:505][982]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.29.24:810][108]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.29.24:820][108]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.29.24:820][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.29.24:820][108]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.29.24:828][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008562s)
+[2026.10.26-19.29.24:829][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008633s)
+[2026.10.26-19.29.24:858][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.10.26-19.29.24:859][108]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.29.24:862][108]LogPlayLevel: PIE: World Init took: (0.002753s)
+[2026.10.26-19.29.24:863][108]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.29.24:863][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.29.24:863][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.29.24:863][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.29.24:863][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.29.24:863][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.29.24:863][108]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.29.24:868][108]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.24:870][108]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.24:870][108]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.29.24:880][108]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.29.24:880][108]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.29.24:880][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.29.24:881][108]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.29.24:892][108]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.29.24:892][108]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.29.24:892][108]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.29.24:892][108]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.29.24:892][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.29.24:892][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.29.24:892][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.29.24:893][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.10.26-19.29.24:898][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.10.26-19.29.24:902][108]LogInit: FAudioDevice initialized with ID 8.
+[2026.10.26-19.29.24:902][108]LogAudio: Display: Audio Device (ID: 8) registered with world 'MiniGolf'.
+[2026.10.26-19.29.24:902][108]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.26-19.29.24:902][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.24:908][108]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.29.24:910][108]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.29.24
+[2026.10.26-19.29.24:910][108]LogWorld: Bringing up level for play took: 0.002303
+[2026.10.26-19.29.24:914][108]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.10.26-19.29.24:915][108]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.29.24:918][108]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.29.24:918][108]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.29.24:921][108]PIE: Tiempo de inicio total de la reproducción en el editor de 0,101 segundos.
+[2026.10.26-19.29.24:972][109]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.29.30:205][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.30:205][729]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.29.30:205][729]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.29.30:205][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.29.30:208][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.29.30:210][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.29.30:244][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.29.30:244][729]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.26-19.29.30:245][729]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=8, StreamState=4
+[2026.10.26-19.29.30:257][729]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.29.30:264][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.10.26-19.29.30:350][730]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.10.26-19.29.44:667][218]Cmd: TRANSACTION UNDO
+[2026.10.26-19.29.44:668][218]LogEditorTransaction: Undo Transformar
+[2026.10.26-19.29.53:284][ 23]LogStreaming: Display: FlushAsyncLoading(388): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.26-19.29.53:288][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.29.53:354][ 23]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.29.53:354][ 23]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.29.53:354][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.29.53:354][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.29.53:406][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.10.26-19.29.53:439][ 23]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.29.53:439][ 23]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolf8BEC925944186CD13EE457A401381C33.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.29.53:470][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.573 ms (total: 1.25 sec)
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: Enabled validators:
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.29.53:536][ 23]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.29.53:536][ 23]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.29.53:536][ 23]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.30.00:779][639]LogPSOHitching: Encountered 400 PSO creation hitches so far (153 graphics, 247 compute). 0 of them were precached.
+[2026.10.26-19.30.10:526][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.30.10:587][468]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.30.10:588][468]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.30.10:588][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.30.10:588][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.30.10:641][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.10.26-19.30.10:675][468]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.30.10:676][468]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolfBE27B29542D476D441BF4EB35E9E9EC3.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.30.10:703][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.028 ms (total: 1.43 sec)
+[2026.10.26-19.30.10:770][468]LogContentValidation: Enabled validators:
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.30.10:770][468]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.30.10:770][468]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.30.10:770][468]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.30.10:770][468]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.30.10:770][468]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.30.10:770][468]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.30.18:928][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Goal.Golf_Goal
+[2026.10.26-19.30.19:120][143]LogStreaming: Display: FlushAsyncLoading(389): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.26-19.30.19:430][143]LogTexture: Display: Creación de texturas TwoD: /PCG/BP_Elements/Resources/Textures/T_BlackLinearFloat.T_BlackLinearFloat (RGBA16F, 8x8 x1x1x1) (memoria requerida aproximada: 1.002514 MB), EncodeSpeed: Fast
+[2026.10.26-19.30.19:430][143]LogTexture: Display: Creación de texturas TwoD: /PCG/BP_Elements/Resources/MaterialsAndRTs/DebugMaterials/debugFrame.debugFrame (TFO_AutoDXT, 256x256 x1x1x1) (memoria requerida aproximada: 11.333209 MB), EncodeSpeed: Fast
+[2026.10.26-19.30.21:298][143]LogStaticMesh: Display: Malla estática de construcción PhAT_FloorBox (Estimación de memoria necesaria: 0.024887 MB)...
+[2026.10.26-19.30.21:300][143]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2026.10.26-19.30.22:018][143]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' with subface index 0 in Game thread.
+[2026.10.26-19.30.22:018][143]LogSlate: Display: Took 0.008393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K) on Game thread.
+[2026.10.26-19.30.22:018][143]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' subface 0 in Game thread.
+[2026.10.26-19.30.22:018][143]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.10.26-19.30.22:280][143]LogAutomationController: Ignoring very large delta of 3.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.26-19.30.24:429][265]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1394.492554
+[2026.10.26-19.30.24:568][273]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-19.30.24:568][273]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1394.613647, Update Interval: 336.721100
+[2026.10.26-19.31.13:069][985]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.31.13:079][985]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.31.13:086][985]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.31.13:087][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.31.13:194][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2026.10.26-19.31.18:269][497]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.31.18:281][497]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.31.18:281][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.31.18:281][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.31.18:290][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008529s)
+[2026.10.26-19.31.18:290][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008589s)
+[2026.10.26-19.31.18:330][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.10.26-19.31.18:334][497]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.31.18:337][497]LogPlayLevel: PIE: World Init took: (0.002992s)
+[2026.10.26-19.31.18:337][497]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.31.18:338][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.31.18:338][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.31.18:338][497]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.31.18:338][497]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.31.18:338][497]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.31.18:338][497]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.31.18:345][497]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.31.18:346][497]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.31.18:348][497]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.31.18:357][497]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.31.18:357][497]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.31.18:357][497]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.31.18:358][497]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.31.18:370][497]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.31.18:370][497]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.31.18:370][497]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.31.18:370][497]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.31.18:370][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.31.18:370][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.31.18:370][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.31.18:371][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.10.26-19.31.18:375][497]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.10.26-19.31.18:379][497]LogInit: FAudioDevice initialized with ID 9.
+[2026.10.26-19.31.18:379][497]LogAudio: Display: Audio Device (ID: 9) registered with world 'MiniGolf'.
+[2026.10.26-19.31.18:379][497]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.26-19.31.18:380][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.31.18:385][497]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.31.18:387][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.31.18
+[2026.10.26-19.31.18:387][497]LogWorld: Bringing up level for play took: 0.001874
+[2026.10.26-19.31.18:392][497]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2026.10.26-19.31.18:393][497]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.31.18:395][497]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.31.18:395][497]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.31.18:399][497]PIE: Tiempo de inicio total de la reproducción en el editor de 0,12 segundos.
+[2026.10.26-19.31.18:450][498]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.31.59:265][259]Cmd: SELECT NONE
+[2026.10.26-19.32.00:419][366]Cmd: SELECT NONE
+[2026.10.26-19.32.01:529][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.32.01:529][468]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.32.01:530][468]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.32.01:530][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.32.01:542][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.32.01:548][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.32.01:590][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.32.01:591][468]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.26-19.32.01:591][468]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=9, StreamState=4
+[2026.10.26-19.32.01:603][468]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.32.01:614][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.10.26-19.32.01:702][469]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2026.10.26-19.32.14:332][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.32.14:386][755]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.32.14:386][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.32.14:386][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.32.14:386][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.32.14:455][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2026.10.26-19.32.14:486][755]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.32.14:487][755]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolf3CF3C46C4849DC43C36106A448806612.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.32.14:516][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 183.271 ms (total: 1.61 sec)
+[2026.10.26-19.32.14:587][755]LogContentValidation: Enabled validators:
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.32.14:587][755]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.32.14:588][755]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.32.14:588][755]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.32.14:588][755]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.32.14:588][755]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.32.14:588][755]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.32.15:309][821]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.32.15:319][821]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.32.15:319][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.32.15:319][821]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.32.15:326][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008312s)
+[2026.10.26-19.32.15:328][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008372s)
+[2026.10.26-19.32.15:367][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.10.26-19.32.15:368][821]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.32.15:371][821]LogPlayLevel: PIE: World Init took: (0.002872s)
+[2026.10.26-19.32.15:371][821]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.32.15:371][821]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.32.15:372][821]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.32.15:372][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.32.15:372][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.32.15:372][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.32.15:372][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.32.15:372][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.32.15:372][821]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.32.15:378][821]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.32.15:380][821]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.32.15:381][821]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.32.15:390][821]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.32.15:390][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.32.15:390][821]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.32.15:391][821]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.32.15:401][821]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.32.15:401][821]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.32.15:401][821]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.32.15:401][821]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.32.15:402][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.32.15:402][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.32.15:402][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.32.15:402][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.10.26-19.32.15:407][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.10.26-19.32.15:411][821]LogInit: FAudioDevice initialized with ID 10.
+[2026.10.26-19.32.15:411][821]LogAudio: Display: Audio Device (ID: 10) registered with world 'MiniGolf'.
+[2026.10.26-19.32.15:411][821]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.26-19.32.15:412][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.32.15:416][821]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.32.15:419][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.32.15
+[2026.10.26-19.32.15:419][821]LogWorld: Bringing up level for play took: 0.001872
+[2026.10.26-19.32.15:423][821]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2026.10.26-19.32.15:424][821]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.32.15:427][821]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.32.15:427][821]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.32.15:429][821]PIE: Tiempo de inicio total de la reproducción en el editor de 0,111 segundos.
+[2026.10.26-19.32.15:484][822]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.32.51:514][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.32.51:514][147]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.32.51:515][147]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.32.51:515][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.32.51:517][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.32.51:525][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.32.51:568][147]LogAudio: Display: Audio Device unregistered from world 'MiniGolf'.
+[2026.10.26-19.32.51:568][147]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.26-19.32.51:569][147]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=10, StreamState=4
+[2026.10.26-19.32.51:582][147]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.32.51:586][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.32.51:590][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.10.26-19.32.51:631][148]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2026.10.26-19.32.55:475][547]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Goal.Golf_Goal
+[2026.10.26-19.33.05:856][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.33.05:919][169]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Goal
+[2026.10.26-19.33.05:920][169]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Goal] ([2] browsable assets)...
+[2026.10.26-19.33.05:920][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Goal]
+[2026.10.26-19.33.05:920][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Goal" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Goal.uasset" SILENT=true
+[2026.10.26-19.33.05:940][169]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Goal
+[2026.10.26-19.33.05:941][169]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_GoalDFED5D764AB16A0C9EC328942B3CF676.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Goal.uasset'
+[2026.10.26-19.33.05:955][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.571 ms (total: 1.71 sec)
+[2026.10.26-19.33.06:018][169]LogContentValidation: Enabled validators:
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.33.06:018][169]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.33.06:018][169]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.33.06:018][169]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.33.06:019][169]AssetCheck: /Game/Blueprints/Golf_Goal Validando recurso
+[2026.10.26-19.33.06:019][169]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.33.06:019][169]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.33.06:049][169]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.26-19.33.10:524][437]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.33.10:534][437]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.33.10:534][437]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Goal.Golf_Goal'
+[2026.10.26-19.33.10:542][437]LogPlayLevel: [PlayLevel] Compiling Golf_Goal before play...
+[2026.10.26-19.33.10:652][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.10.26-19.33.10:652][437]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2026.10.26-19.33.10:654][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.33.10:661][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008220s)
+[2026.10.26-19.33.10:661][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008282s)
+[2026.10.26-19.33.10:701][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2026.10.26-19.33.10:702][437]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.33.10:705][437]LogPlayLevel: PIE: World Init took: (0.002864s)
+[2026.10.26-19.33.10:705][437]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.33.10:705][437]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.33.10:705][437]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.33.10:705][437]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.33.10:705][437]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.33.10:706][437]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.33.10:706][437]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.33.10:711][437]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.10:713][437]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.10:715][437]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.10:723][437]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.33.10:723][437]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.33.10:723][437]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.33.10:723][437]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.33.10:734][437]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.33.10:734][437]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.33.10:734][437]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.33.10:734][437]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.33.10:734][437]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.33.10:734][437]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.33.10:734][437]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.33.10:736][437]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.10.26-19.33.10:740][437]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.10.26-19.33.10:744][437]LogInit: FAudioDevice initialized with ID 11.
+[2026.10.26-19.33.10:744][437]LogAudio: Display: Audio Device (ID: 11) registered with world 'MiniGolf'.
+[2026.10.26-19.33.10:744][437]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.26-19.33.10:745][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.33.10:760][437]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.33.10:761][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.33.10
+[2026.10.26-19.33.10:761][437]LogWorld: Bringing up level for play took: 0.001869
+[2026.10.26-19.33.10:766][437]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.10.26-19.33.10:767][437]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.33.10:769][437]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.33.10:769][437]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.33.10:773][437]PIE: Tiempo de inicio total de la reproducción en el editor de 0,238 segundos.
+[2026.10.26-19.33.10:817][437]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.33.11:395][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.33.11:395][460]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.33.11:395][460]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.33.11:396][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.33.11:400][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.33.11:406][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.33.11:448][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.33.11:449][460]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.26-19.33.11:449][460]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=11, StreamState=4
+[2026.10.26-19.33.11:461][460]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.33.11:469][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2026.10.26-19.33.11:513][461]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.10.26-19.33.13:314][558]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.33.13:325][558]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.33.13:330][558]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.33.13:331][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.33.13:413][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.10.26-19.33.14:524][685]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.33.14:537][685]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.33.14:537][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.33.14:537][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.33.14:545][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008447s)
+[2026.10.26-19.33.14:545][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008509s)
+[2026.10.26-19.33.14:585][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2026.10.26-19.33.14:587][685]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.33.14:590][685]LogPlayLevel: PIE: World Init took: (0.002988s)
+[2026.10.26-19.33.14:590][685]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.33.14:590][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.33.14:590][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.33.14:590][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.33.14:590][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.33.14:590][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.33.14:590][685]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.33.14:596][685]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.14:598][685]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.14:600][685]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.33.14:609][685]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.33.14:609][685]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.33.14:609][685]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.33.14:610][685]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.33.14:620][685]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.33.14:620][685]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.33.14:620][685]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.33.14:621][685]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.33.14:621][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.33.14:621][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.33.14:621][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.33.14:621][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.10.26-19.33.14:626][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.10.26-19.33.14:630][685]LogInit: FAudioDevice initialized with ID 12.
+[2026.10.26-19.33.14:630][685]LogAudio: Display: Audio Device (ID: 12) registered with world 'MiniGolf'.
+[2026.10.26-19.33.14:630][685]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.26-19.33.14:631][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.33.14:636][685]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.33.14:637][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.33.14
+[2026.10.26-19.33.14:638][685]LogWorld: Bringing up level for play took: 0.001847
+[2026.10.26-19.33.14:642][685]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.10.26-19.33.14:643][685]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.33.14:646][685]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.33.14:646][685]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.33.14:649][685]PIE: Tiempo de inicio total de la reproducción en el editor de 0,115 segundos.
+[2026.10.26-19.33.14:698][686]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.33.43:539][901]Cmd: SELECT NONE
+[2026.10.26-19.33.45:909][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Goal.Golf_Goal
+[2026.10.26-19.34.11:636][490]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.34.11:649][490]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.34.11:655][490]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.34.11:655][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.34.11:765][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.10.26-19.34.14:126][691]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Manager.Golf_Manager
+[2026.10.26-19.34.59:404][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.34.59:406][173]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.34.59:406][173]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Manager] ([2] browsable assets)...
+[2026.10.26-19.34.59:406][173]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Manager]
+[2026.10.26-19.34.59:406][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Manager" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset" SILENT=true
+[2026.10.26-19.34.59:442][173]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.34.59:443][173]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_ManagerCFCF6E68499F6F3D35A96BB1C43D1604.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset'
+[2026.10.26-19.34.59:444][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.376 ms (total: 1.75 sec)
+[2026.10.26-19.34.59:457][173]LogContentValidation: Enabled validators:
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.34.59:457][173]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.34.59:457][173]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.34.59:457][173]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.34.59:457][173]AssetCheck: /Game/Blueprints/Golf_Manager Validando recurso
+[2026.10.26-19.34.59:457][173]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.34.59:457][173]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.34.59:458][173]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.34.59:458][173]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.34.59:477][173]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.26-19.35.00:884][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.00:884][250]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.00:885][250]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.00:885][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.00:896][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.00:905][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.00:946][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.00:947][250]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.26-19.35.00:947][250]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=12, StreamState=4
+[2026.10.26-19.35.00:960][250]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.00:992][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2026.10.26-19.35.01:035][251]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.10.26-19.35.01:630][284]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.01:639][284]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.01:639][284]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Manager.Golf_Manager'
+[2026.10.26-19.35.01:645][284]LogPlayLevel: [PlayLevel] Compiling Golf_Manager before play...
+[2026.10.26-19.35.01:746][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.10.26-19.35.01:749][284]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2026.10.26-19.35.01:749][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.01:757][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008190s)
+[2026.10.26-19.35.01:757][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008258s)
+[2026.10.26-19.35.01:796][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.10.26-19.35.01:797][284]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.01:800][284]LogPlayLevel: PIE: World Init took: (0.002863s)
+[2026.10.26-19.35.01:800][284]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.01:800][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.01:800][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.01:800][284]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.01:800][284]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.01:801][284]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.01:801][284]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.01:806][284]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.01:808][284]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.01:810][284]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.01:819][284]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.01:819][284]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.01:819][284]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.01:820][284]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.01:831][284]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.01:831][284]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.01:831][284]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.01:831][284]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.01:831][284]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.01:831][284]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.01:831][284]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.01:832][284]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.10.26-19.35.01:836][284]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.10.26-19.35.01:840][284]LogInit: FAudioDevice initialized with ID 13.
+[2026.10.26-19.35.01:840][284]LogAudio: Display: Audio Device (ID: 13) registered with world 'MiniGolf'.
+[2026.10.26-19.35.01:840][284]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.26-19.35.01:841][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.01:857][284]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.01:859][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.01
+[2026.10.26-19.35.01:859][284]LogWorld: Bringing up level for play took: 0.002264
+[2026.10.26-19.35.01:863][284]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.10.26-19.35.01:865][284]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.01:867][284]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.01:867][284]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.01:870][284]PIE: Tiempo de inicio total de la reproducción en el editor de 0,231 segundos.
+[2026.10.26-19.35.01:916][284]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.35.02:513][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.02:513][312]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.02:515][312]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.02:515][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.02:518][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.02:521][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.02:565][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.02:565][312]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.26-19.35.02:566][312]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=13, StreamState=4
+[2026.10.26-19.35.02:578][312]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.02:586][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.10.26-19.35.02:628][313]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.10.26-19.35.03:299][350]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.35.03:311][350]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.35.03:317][350]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.03:317][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.03:404][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2026.10.26-19.35.04:307][451]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.04:320][451]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.04:320][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.35.04:320][451]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.04:329][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008773s)
+[2026.10.26-19.35.04:329][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008834s)
+[2026.10.26-19.35.04:371][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.10.26-19.35.04:373][451]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.04:376][451]LogPlayLevel: PIE: World Init took: (0.002913s)
+[2026.10.26-19.35.04:376][451]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.04:376][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.04:376][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.04:376][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.04:376][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.04:376][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.04:376][451]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.04:382][451]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.04:384][451]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.04:385][451]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.04:395][451]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.04:395][451]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.04:395][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.04:396][451]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.04:406][451]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.04:407][451]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.04:407][451]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.04:407][451]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.04:407][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.04:407][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.04:407][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.04:408][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.10.26-19.35.04:411][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.10.26-19.35.04:416][451]LogInit: FAudioDevice initialized with ID 14.
+[2026.10.26-19.35.04:416][451]LogAudio: Display: Audio Device (ID: 14) registered with world 'MiniGolf'.
+[2026.10.26-19.35.04:416][451]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.26-19.35.04:417][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.04:421][451]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.04:423][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.04
+[2026.10.26-19.35.04:424][451]LogWorld: Bringing up level for play took: 0.001924
+[2026.10.26-19.35.04:427][451]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.10.26-19.35.04:429][451]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.04:431][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.04:431][451]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.04:434][451]PIE: Tiempo de inicio total de la reproducción en el editor de 0,117 segundos.
+[2026.10.26-19.35.04:485][452]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.35.10:947][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.10:947][ 29]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.10:947][ 29]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.10:947][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.10:958][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.10:965][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.11:006][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.11:007][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.26-19.35.11:007][ 29]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=14, StreamState=4
+[2026.10.26-19.35.11:020][ 29]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.11:029][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.10.26-19.35.11:112][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.10.26-19.35.18:505][582]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.18:515][582]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.18:515][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.35.18:515][582]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.18:523][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008726s)
+[2026.10.26-19.35.18:524][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008785s)
+[2026.10.26-19.35.18:564][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2026.10.26-19.35.18:567][582]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.18:570][582]LogPlayLevel: PIE: World Init took: (0.002949s)
+[2026.10.26-19.35.18:570][582]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.10.26-19.35.18:570][582]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.18:570][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.18:570][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.18:571][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.18:571][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.18:571][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.18:571][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.18:571][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.18:571][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.18:571][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.18:571][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.18:571][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.18:571][582]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.18:576][582]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.18:578][582]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.18:580][582]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.18:589][582]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.18:589][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.18:589][582]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.18:590][582]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.18:601][582]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.18:601][582]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.18:601][582]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.18:601][582]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.18:601][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.18:601][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.18:601][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.18:602][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.10.26-19.35.18:606][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.10.26-19.35.18:610][582]LogInit: FAudioDevice initialized with ID 15.
+[2026.10.26-19.35.18:610][582]LogAudio: Display: Audio Device (ID: 15) registered with world 'MiniGolf'.
+[2026.10.26-19.35.18:610][582]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.26-19.35.18:610][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.18:616][582]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.18:617][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.18
+[2026.10.26-19.35.18:618][582]LogWorld: Bringing up level for play took: 0.001842
+[2026.10.26-19.35.18:622][582]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.10.26-19.35.18:623][582]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.18:625][582]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.18:625][582]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.18:628][582]PIE: Tiempo de inicio total de la reproducción en el editor de 0,114 segundos.
+[2026.10.26-19.35.18:681][583]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.35.29:148][736]Cmd: SELECT NONE
+[2026.10.26-19.35.31:474][915]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Manager.Golf_Manager
+[2026.10.26-19.35.39:632][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.35.39:632][306]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.35.39:632][306]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Manager] ([2] browsable assets)...
+[2026.10.26-19.35.39:632][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Manager]
+[2026.10.26-19.35.39:632][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Manager" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset" SILENT=true
+[2026.10.26-19.35.39:668][306]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.35.39:669][306]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_Manager63C398D84DCAF6F92A1EF4A20818C932.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset'
+[2026.10.26-19.35.39:670][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.012 ms (total: 1.79 sec)
+[2026.10.26-19.35.39:682][306]LogContentValidation: Enabled validators:
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.35.39:682][306]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.35.39:682][306]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.35.39:682][306]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.35.39:682][306]AssetCheck: /Game/Blueprints/Golf_Manager Validando recurso
+[2026.10.26-19.35.39:682][306]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.35.39:682][306]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.35.40:737][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.40:738][362]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.40:738][362]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.40:739][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.40:746][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.40:750][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.40:791][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.40:791][362]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.26-19.35.40:792][362]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=15, StreamState=4
+[2026.10.26-19.35.40:805][362]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.40:833][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.10.26-19.35.40:919][363]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.10.26-19.35.41:441][387]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.41:451][387]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.41:451][387]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Manager.Golf_Manager'
+[2026.10.26-19.35.41:455][387]LogPlayLevel: [PlayLevel] Compiling Golf_Manager before play...
+[2026.10.26-19.35.41:558][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2026.10.26-19.35.41:560][387]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2026.10.26-19.35.41:560][387]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.41:567][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008594s)
+[2026.10.26-19.35.41:569][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008659s)
+[2026.10.26-19.35.41:610][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.10.26-19.35.41:611][387]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.41:613][387]LogPlayLevel: PIE: World Init took: (0.002985s)
+[2026.10.26-19.35.41:613][387]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.41:613][387]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.41:613][387]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.41:613][387]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.41:613][387]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.41:613][387]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.41:613][387]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.41:619][387]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.41:621][387]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.41:622][387]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.41:631][387]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.41:631][387]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.41:631][387]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.41:632][387]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.41:643][387]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.41:643][387]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.41:643][387]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.41:643][387]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.41:643][387]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.41:644][387]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.41:644][387]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.41:644][387]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.10.26-19.35.41:648][387]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.10.26-19.35.41:653][387]LogInit: FAudioDevice initialized with ID 16.
+[2026.10.26-19.35.41:653][387]LogAudio: Display: Audio Device (ID: 16) registered with world 'MiniGolf'.
+[2026.10.26-19.35.41:653][387]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.26-19.35.41:653][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.41:670][387]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.41:672][387]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.41
+[2026.10.26-19.35.41:672][387]LogWorld: Bringing up level for play took: 0.002127
+[2026.10.26-19.35.41:677][387]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2026.10.26-19.35.41:678][387]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.41:681][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.41:681][387]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.41:684][387]PIE: Tiempo de inicio total de la reproducción en el editor de 0,233 segundos.
+[2026.10.26-19.35.41:730][387]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.35.42:194][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.42:194][406]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.42:194][406]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.42:195][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.42:198][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.42:202][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.42:243][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.42:243][406]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.26-19.35.42:244][406]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=16, StreamState=4
+[2026.10.26-19.35.42:256][406]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.42:265][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.10.26-19.35.42:355][407]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2026.10.26-19.35.42:976][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.35.43:035][436]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.35.43:035][436]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.35.43:035][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.35.43:035][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.35.43:101][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.10.26-19.35.43:132][436]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.35.43:132][436]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolfA757654E49354BADBEA0CE9C0CC4A35D.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.35.43:167][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 191.093 ms (total: 1.98 sec)
+[2026.10.26-19.35.43:235][436]LogContentValidation: Enabled validators:
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.35.43:236][436]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.35.43:236][436]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.35.43:236][436]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.35.43:236][436]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.35.43:236][436]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.35.43:236][436]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.35.43:837][464]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.35.43:849][464]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.35.43:854][464]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.43:855][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.43:943][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2026.10.26-19.35.46:561][672]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Goal.Golf_Goal
+[2026.10.26-19.35.51:961][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.35.52:019][884]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Goal
+[2026.10.26-19.35.52:019][884]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Goal] ([2] browsable assets)...
+[2026.10.26-19.35.52:019][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Goal]
+[2026.10.26-19.35.52:019][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Goal" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Goal.uasset" SILENT=true
+[2026.10.26-19.35.52:040][884]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Goal
+[2026.10.26-19.35.52:041][884]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_Goal7D418CB540D812450369CC885EEE5173.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Goal.uasset'
+[2026.10.26-19.35.52:054][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.057 ms (total: 2.07 sec)
+[2026.10.26-19.35.52:120][884]LogContentValidation: Enabled validators:
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.35.52:120][884]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.35.52:120][884]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.35.52:120][884]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.35.52:120][884]AssetCheck: /Game/Blueprints/Golf_Goal Validando recurso
+[2026.10.26-19.35.52:120][884]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.35.52:121][884]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.35.53:365][942]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.53:375][942]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.53:375][942]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Goal.Golf_Goal'
+[2026.10.26-19.35.53:378][942]LogPlayLevel: [PlayLevel] Compiling Golf_Goal before play...
+[2026.10.26-19.35.53:516][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.10.26-19.35.53:517][942]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (1 blueprints)
+[2026.10.26-19.35.53:517][942]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.53:526][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008315s)
+[2026.10.26-19.35.53:526][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008383s)
+[2026.10.26-19.35.53:571][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.10.26-19.35.53:572][942]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.53:575][942]LogPlayLevel: PIE: World Init took: (0.003081s)
+[2026.10.26-19.35.53:575][942]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.53:575][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.53:575][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.53:575][942]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.53:575][942]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.53:575][942]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.53:575][942]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.53:580][942]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.53:583][942]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.53:584][942]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.53:594][942]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.53:594][942]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.53:594][942]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.53:595][942]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.53:606][942]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.53:606][942]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.53:606][942]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.53:606][942]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.53:607][942]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.53:607][942]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.53:607][942]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.53:609][942]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.10.26-19.35.53:613][942]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.10.26-19.35.53:617][942]LogInit: FAudioDevice initialized with ID 17.
+[2026.10.26-19.35.53:617][942]LogAudio: Display: Audio Device (ID: 17) registered with world 'MiniGolf'.
+[2026.10.26-19.35.53:617][942]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.26-19.35.53:618][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.53:635][942]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.53:637][942]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.53
+[2026.10.26-19.35.53:637][942]LogWorld: Bringing up level for play took: 0.002086
+[2026.10.26-19.35.53:642][942]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.10.26-19.35.53:643][942]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.53:645][942]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.53:645][942]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.53:648][942]PIE: Tiempo de inicio total de la reproducción en el editor de 0,274 segundos.
+[2026.10.26-19.35.53:695][942]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.35.54:194][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.54:194][961]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.54:195][961]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.54:195][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.54:204][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.35.54:211][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.54:257][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.54:258][961]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.26-19.35.54:258][961]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=17, StreamState=4
+[2026.10.26-19.35.54:270][961]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.35.54:279][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2026.10.26-19.35.54:475][962]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.10.26-19.35.54:994][983]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.35.55:005][983]LogSlate: Window 'Golf_Goal' being destroyed
+[2026.10.26-19.35.55:011][983]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.35.55:011][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.35.55:094][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.10.26-19.35.55:868][ 60]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.35.55:878][ 60]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.35.55:878][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.35.55:878][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.35.55:886][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008548s)
+[2026.10.26-19.35.55:886][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008605s)
+[2026.10.26-19.35.55:926][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2026.10.26-19.35.55:927][ 60]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.35.55:930][ 60]LogPlayLevel: PIE: World Init took: (0.002766s)
+[2026.10.26-19.35.55:930][ 60]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.35.55:930][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.35.55:930][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.35.55:930][ 60]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.35.55:930][ 60]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.35.55:930][ 60]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.35.55:930][ 60]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.35.55:935][ 60]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.55:937][ 60]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.55:938][ 60]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.35.55:947][ 60]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.35.55:947][ 60]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.35.55:947][ 60]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.35.55:948][ 60]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.35.55:958][ 60]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.35.55:959][ 60]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.35.55:959][ 60]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.35.55:959][ 60]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.35.55:959][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.35.55:959][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.35.55:959][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.35.55:960][ 60]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.10.26-19.35.55:963][ 60]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.10.26-19.35.55:967][ 60]LogInit: FAudioDevice initialized with ID 18.
+[2026.10.26-19.35.55:967][ 60]LogAudio: Display: Audio Device (ID: 18) registered with world 'MiniGolf'.
+[2026.10.26-19.35.55:967][ 60]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.26-19.35.55:968][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.35.55:973][ 60]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.35.55:975][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.35.55
+[2026.10.26-19.35.55:975][ 60]LogWorld: Bringing up level for play took: 0.001764
+[2026.10.26-19.35.55:980][ 60]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.10.26-19.35.55:981][ 60]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.35.55:982][ 60]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.35.55:982][ 60]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.35.55:985][ 60]PIE: Tiempo de inicio total de la reproducción en el editor de 0,108 segundos.
+[2026.10.26-19.35.56:037][ 61]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.36.09:655][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.09:655][360]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.36.09:655][360]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.36.09:656][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.09:658][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.36.09:666][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.09:708][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.09:709][360]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.26-19.36.09:710][360]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=18, StreamState=4
+[2026.10.26-19.36.09:722][360]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.36.09:731][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2026.10.26-19.36.09:824][361]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.10.26-19.36.12:750][658]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.36.12:761][658]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.36.12:761][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.36.12:761][658]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.36.12:769][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008531s)
+[2026.10.26-19.36.12:769][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008599s)
+[2026.10.26-19.36.12:810][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.10.26-19.36.12:813][658]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.36.12:815][658]LogPlayLevel: PIE: World Init took: (0.002905s)
+[2026.10.26-19.36.12:815][658]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.36.12:815][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.36.12:815][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.36.12:815][658]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.36.12:815][658]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.36.12:815][658]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.36.12:815][658]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.36.12:821][658]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.12:823][658]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.12:825][658]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.12:834][658]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.36.12:834][658]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.36.12:834][658]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.36.12:834][658]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.36.12:845][658]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.36.12:845][658]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.36.12:845][658]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.36.12:845][658]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.36.12:845][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.36.12:846][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.36.12:846][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.36.12:846][658]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.10.26-19.36.12:851][658]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.10.26-19.36.12:855][658]LogInit: FAudioDevice initialized with ID 19.
+[2026.10.26-19.36.12:855][658]LogAudio: Display: Audio Device (ID: 19) registered with world 'MiniGolf'.
+[2026.10.26-19.36.12:855][658]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.26-19.36.12:856][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.12:861][658]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.36.12:862][658]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.36.12
+[2026.10.26-19.36.12:862][658]LogWorld: Bringing up level for play took: 0.001881
+[2026.10.26-19.36.12:867][658]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2026.10.26-19.36.12:868][658]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.36.12:871][658]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.36.12:871][658]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.36.12:875][658]PIE: Tiempo de inicio total de la reproducción en el editor de 0,114 segundos.
+[2026.10.26-19.36.12:925][659]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.36.19:476][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1749.552612
+[2026.10.26-19.36.19:602][456]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-19.36.19:602][457]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1749.669556, Update Interval: 349.949036
+[2026.10.26-19.36.29:584][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.29:584][650]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.36.29:585][650]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.36.29:585][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.29:588][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.36.29:593][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.29:635][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.29:636][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.26-19.36.29:636][650]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=19, StreamState=4
+[2026.10.26-19.36.29:648][650]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.36.29:657][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2026.10.26-19.36.29:748][651]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.10.26-19.36.32:361][859]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Manager.Golf_Manager
+[2026.10.26-19.36.40:416][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.36.40:470][210]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.36.40:470][210]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Manager] ([2] browsable assets)...
+[2026.10.26-19.36.40:470][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Manager]
+[2026.10.26-19.36.40:470][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Manager" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset" SILENT=true
+[2026.10.26-19.36.40:506][210]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.36.40:507][210]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_ManagerFD19BABB4828F40626A5AE8345016F7B.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset'
+[2026.10.26-19.36.40:521][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.702 ms (total: 2.18 sec)
+[2026.10.26-19.36.40:636][210]LogContentValidation: Enabled validators:
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.36.40:636][210]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.36.40:636][210]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.36.40:636][210]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.36.40:636][210]AssetCheck: /Game/Blueprints/Golf_Manager Validando recurso
+[2026.10.26-19.36.40:636][210]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.36.40:636][210]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.36.40:636][210]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.36.40:636][210]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.36.40:636][210]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.36.40:637][210]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.36.40:637][210]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.36.40:637][210]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.36.40:637][210]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.36.40:637][210]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.36.41:905][272]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.36.41:914][272]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.36.41:920][272]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.36.41:920][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.42:026][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.10.26-19.36.43:354][403]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.36.43:364][403]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.36.43:364][403]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Manager.Golf_Manager'
+[2026.10.26-19.36.43:369][403]LogPlayLevel: [PlayLevel] Compiling Golf_Manager before play...
+[2026.10.26-19.36.43:456][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.10.26-19.36.43:457][403]LogPlayLevel: PlayLevel: Blueprint regeneration took 92 ms (1 blueprints)
+[2026.10.26-19.36.43:457][403]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.36.43:466][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008586s)
+[2026.10.26-19.36.43:466][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008649s)
+[2026.10.26-19.36.43:505][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.10.26-19.36.43:506][403]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.36.43:509][403]LogPlayLevel: PIE: World Init took: (0.002820s)
+[2026.10.26-19.36.43:509][403]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.36.43:509][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.36.43:509][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.36.43:509][403]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.36.43:509][403]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.36.43:509][403]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.36.43:509][403]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.36.43:516][403]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.43:518][403]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.43:519][403]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.36.43:528][403]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.36.43:528][403]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.36.43:528][403]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.36.43:529][403]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.36.43:541][403]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.36.43:541][403]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.36.43:541][403]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.10.26-19.36.43:546][403]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.10.26-19.36.43:549][403]LogInit: FAudioDevice initialized with ID 20.
+[2026.10.26-19.36.43:549][403]LogAudio: Display: Audio Device (ID: 20) registered with world 'MiniGolf'.
+[2026.10.26-19.36.43:549][403]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.26-19.36.43:551][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.43:556][403]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.36.43:558][403]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.36.43
+[2026.10.26-19.36.43:558][403]LogWorld: Bringing up level for play took: 0.001932
+[2026.10.26-19.36.43:563][403]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.10.26-19.36.43:564][403]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.36.43:566][403]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.36.43:566][403]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.36.43:569][403]PIE: Tiempo de inicio total de la reproducción en el editor de 0,205 segundos.
+[2026.10.26-19.36.43:621][404]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.36.49:775][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.49:775][134]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.36.49:775][134]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.36.49:776][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.49:778][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.36.49:785][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.36.49:828][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.36.49:829][134]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.26-19.36.49:829][134]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=20, StreamState=4
+[2026.10.26-19.36.49:842][134]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.36.49:850][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.10.26-19.36.49:938][135]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.10.26-19.36.52:694][357]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Golf_Manager.Golf_Manager
+[2026.10.26-19.36.58:913][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.36.58:969][621]LogFileHelpers: Saving Package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.36.58:969][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Golf_Manager] ([2] browsable assets)...
+[2026.10.26-19.36.58:969][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Golf_Manager]
+[2026.10.26-19.36.58:969][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Golf_Manager" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset" SILENT=true
+[2026.10.26-19.36.59:005][621]LogSavePackage: Moving output files for package: /Game/Blueprints/Golf_Manager
+[2026.10.26-19.36.59:005][621]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/Golf_ManagerA933E62D4A0D3DA052558F81C8E85A86.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Blueprints/Golf_Manager.uasset'
+[2026.10.26-19.36.59:020][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.069 ms (total: 2.29 sec)
+[2026.10.26-19.36.59:105][621]LogContentValidation: Enabled validators:
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.36.59:105][621]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.36.59:105][621]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.36.59:105][621]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.36.59:105][621]AssetCheck: /Game/Blueprints/Golf_Manager Validando recurso
+[2026.10.26-19.36.59:105][621]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.36.59:105][621]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.26-19.37.00:220][675]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.37.00:230][675]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.37.00:230][675]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Golf_Manager.Golf_Manager'
+[2026.10.26-19.37.00:235][675]LogPlayLevel: [PlayLevel] Compiling Golf_Manager before play...
+[2026.10.26-19.37.00:355][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.10.26-19.37.00:357][675]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2026.10.26-19.37.00:357][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.37.00:365][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008425s)
+[2026.10.26-19.37.00:365][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008489s)
+[2026.10.26-19.37.00:410][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.10.26-19.37.00:411][675]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.37.00:414][675]LogPlayLevel: PIE: World Init took: (0.002753s)
+[2026.10.26-19.37.00:414][675]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.37.00:414][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.37.00:414][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.37.00:414][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.37.00:414][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.37.00:414][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.37.00:414][675]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.37.00:420][675]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.00:422][675]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.00:424][675]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.00:433][675]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.37.00:433][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.37.00:433][675]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.37.00:434][675]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.37.00:444][675]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.37.00:444][675]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.37.00:444][675]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.37.00:444][675]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.37.00:444][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.37.00:444][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.37.00:444][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.37.00:446][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.10.26-19.37.00:450][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.10.26-19.37.00:455][675]LogInit: FAudioDevice initialized with ID 21.
+[2026.10.26-19.37.00:455][675]LogAudio: Display: Audio Device (ID: 21) registered with world 'MiniGolf'.
+[2026.10.26-19.37.00:455][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.10.26-19.37.00:456][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.00:474][675]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.37.00:475][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.37.00
+[2026.10.26-19.37.00:476][675]LogWorld: Bringing up level for play took: 0.002102
+[2026.10.26-19.37.00:481][675]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.10.26-19.37.00:482][675]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.37.00:483][675]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.37.00:483][675]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.37.00:488][675]PIE: Tiempo de inicio total de la reproducción en el editor de 0,257 segundos.
+[2026.10.26-19.37.00:532][675]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.37.01:253][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.01:254][709]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.37.01:254][709]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.37.01:254][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.37.01:257][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.37.01:262][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.37.01:302][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.01:303][709]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.10.26-19.37.01:304][709]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=21, StreamState=4
+[2026.10.26-19.37.01:316][709]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.37.01:323][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.10.26-19.37.01:410][710]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.10.26-19.37.01:987][736]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.37.01:997][736]LogSlate: Window 'Golf_Manager' being destroyed
+[2026.10.26-19.37.02:003][736]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.37.02:003][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.37.02:089][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2026.10.26-19.37.03:091][832]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.10.26-19.37.03:101][832]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.10.26-19.37.03:101][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.26-19.37.03:101][832]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.37.03:110][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008456s)
+[2026.10.26-19.37.03:110][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniGolf.MiniGolf to /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf (0.008513s)
+[2026.10.26-19.37.03:154][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.10.26-19.37.03:156][832]LogChaosDD: Creating Chaos Debug Draw Scene for world MiniGolf
+[2026.10.26-19.37.03:159][832]LogPlayLevel: PIE: World Init took: (0.002831s)
+[2026.10.26-19.37.03:159][832]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.26-19.37.03:159][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.26-19.37.03:159][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.26-19.37.03:159][832]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.26-19.37.03:159][832]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.26-19.37.03:159][832]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.26-19.37.03:159][832]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.10.26-19.37.03:165][832]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.03:167][832]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.03:168][832]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Altavoces (Realtek(R) Audio)'
+[2026.10.26-19.37.03:177][832]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.10.26-19.37.03:177][832]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.10.26-19.37.03:177][832]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.10.26-19.37.03:178][832]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.10.26-19.37.03:188][832]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.10.26-19.37.03:188][832]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.10.26-19.37.03:188][832]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.10.26-19.37.03:188][832]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2026.10.26-19.37.03:188][832]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.26-19.37.03:188][832]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.26-19.37.03:188][832]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.26-19.37.03:189][832]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.10.26-19.37.03:194][832]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.10.26-19.37.03:198][832]LogInit: FAudioDevice initialized with ID 22.
+[2026.10.26-19.37.03:198][832]LogAudio: Display: Audio Device (ID: 22) registered with world 'MiniGolf'.
+[2026.10.26-19.37.03:198][832]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.10.26-19.37.03:199][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.03:202][832]LogLoad: Game class is 'GameModeBase'
+[2026.10.26-19.37.03:205][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniGolf.MiniGolf up for play (max tick rate 0) at 2026.10.26-20.37.03
+[2026.10.26-19.37.03:205][832]LogWorld: Bringing up level for play took: 0.001791
+[2026.10.26-19.37.03:210][832]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.10.26-19.37.03:211][832]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.10.26-19.37.03:212][832]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.26-19.37.03:212][832]PIE: El servidor ha iniciado sesión
+[2026.10.26-19.37.03:215][832]PIE: Tiempo de inicio total de la reproducción en el editor de 0,115 segundos.
+[2026.10.26-19.37.03:269][833]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.26-19.37.10:784][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.10:784][727]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MiniGolf
+[2026.10.26-19.37.10:784][727]LogWorld: UWorld::CleanupWorld for MiniGolf, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-19.37.10:785][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.37.10:788][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.26-19.37.10:795][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-19.37.10:839][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-19.37.10:840][727]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.10.26-19.37.10:840][727]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=22, StreamState=4
+[2026.10.26-19.37.10:851][727]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.26-19.37.10:860][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2026.10.26-19.37.10:952][728]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.10.26-19.37.11:765][805]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-19.37.11:819][805]LogFileHelpers: Saving Map: /Game/Maps/MiniGolf
+[2026.10.26-19.37.11:820][805]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MiniGolf] ([2] browsable assets)...
+[2026.10.26-19.37.11:820][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MiniGolf]
+[2026.10.26-19.37.11:820][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniGolf" FILE="../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-19.37.11:885][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.10.26-19.37.11:917][805]LogSavePackage: Moving output files for package: /Game/Maps/MiniGolf
+[2026.10.26-19.37.11:917][805]LogSavePackage: Moving '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Saved/MiniGolf118CFA81451F16F50EEFE5990DAF787D.tmp' to '../../../../../../Users/Alumno/Downloads/Pong-Arcade/Test_20261006/Content/Maps/MiniGolf.umap'
+[2026.10.26-19.37.11:947][805]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.414 ms (total: 2.47 sec)
+[2026.10.26-19.37.12:034][805]LogContentValidation: Enabled validators:
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.26-19.37.12:035][805]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.26-19.37.12:035][805]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.26-19.37.12:035][805]LogContentValidation: Recursos adicionales añadidos para su validación por 0 validadores:
+[2026.10.26-19.37.12:035][805]AssetCheck: /Game/Maps/MiniGolf Validando recurso
+[2026.10.26-19.37.12:035][805]LogContentValidation: Recuentos de recursos validados para 9 validadores:
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.26-19.37.12:035][805]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
