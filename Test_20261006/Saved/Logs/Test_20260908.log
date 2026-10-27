@@ -3520,3 +3520,101 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.27-15.55.30:557][595]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
 [2026.10.27-15.55.30:567][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
 [2026.10.27-15.55.30:598][596]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2026.10.27-15.58.35:109][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1042.238281
+[2026.10.27-15.58.36:110][355]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-15.58.36:110][355]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1042.905884, Update Interval: 331.368744
+[2026.10.27-16.04.16:779][377]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1383.909180
+[2026.10.27-16.04.17:779][380]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.04.17:779][380]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1384.577148, Update Interval: 303.790405
+[2026.10.27-16.09.46:449][366]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1713.578125
+[2026.10.27-16.09.47:449][369]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.09.47:450][370]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1714.244629, Update Interval: 314.806366
+[2026.10.27-16.15.48:116][451]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2075.245850
+[2026.10.27-16.15.49:116][454]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.15.49:116][454]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2075.912354, Update Interval: 302.006897
+[2026.10.27-16.21.24:118][459]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2411.252441
+[2026.10.27-16.21.25:119][462]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.21.25:119][463]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2411.917969, Update Interval: 336.625885
+[2026.10.27-16.27.57:787][640]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2804.920654
+[2026.10.27-16.27.58:787][643]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.27.58:787][643]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2805.587646, Update Interval: 350.340881
+[2026.10.27-16.34.32:790][825]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3199.921631
+[2026.10.27-16.34.33:791][828]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.34.33:791][828]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3200.588867, Update Interval: 319.080170
+[2026.10.27-16.40.28:796][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3555.926025
+[2026.10.27-16.40.29:795][896]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.40.29:795][896]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3556.592773, Update Interval: 318.188416
+[2026.10.27-16.43.27:561][430]LogDerivedDataCache: C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.088 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 11629 files in 11891 folders with total size 219 MiB.
+[2026.10.27-16.46.33:465][987]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3920.595459
+[2026.10.27-16.46.34:465][990]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-16.46.34:465][991]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3921.261475, Update Interval: 308.849762
+[2026.10.27-16.46.36:383][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2026.10.27-16.46.36:439][ 80]LogStall: Shutdown...
+[2026.10.27-16.46.36:448][ 80]LogStall: Shutdown complete.
+[2026.10.27-16.46.36:463][ 80]LogSlate: Window 'Test_20260908 - Unreal Editor' being destroyed
+[2026.10.27-16.46.36:550][ 81]Cmd: QUIT_EDITOR
+[2026.10.27-16.46.36:550][ 81]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.27-16.46.36:556][ 81]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.27-16.46.36:557][ 81]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.27-16.46.36:557][ 81]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.27-16.46.36:560][ 81]LogWorld: UWorld::CleanupWorld for MenuPrincipal, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-16.46.36:560][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-16.46.36:560][ 81]LogMovieScene: USequencerBakeSubsystem subsystem deinitialized.
+[2026.10.27-16.46.36:586][ 81]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.27-16.46.36:614][ 81]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.27-16.46.36:626][ 81]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-16.46.36:626][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-16.46.36:633][ 81]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.27-16.46.36:637][ 81]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.27-16.46.36:918][ 81]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerWasapi)...
+[2026.10.27-16.46.36:918][ 81]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.27-16.46.36:918][ 81]LogAudio: Display: Audio Device unregistered from world 'MenuPrincipal'.
+[2026.10.27-16.46.36:918][ 81]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.27-16.46.36:919][ 81]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=1, StreamState=4
+[2026.10.27-16.46.36:936][ 81]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.27-16.46.36:948][ 81]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.27-16.46.36:948][ 81]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.27-16.46.36:971][ 81]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2026.10.27-16.46.36:980][ 81]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.27-16.46.36:981][ 81]LogExit: Preparing to exit.
+[2026.10.27-16.46.37:170][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.10.27-16.46.37:173][ 81]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-16.46.37:566][ 81]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.27-16.46.37:566][ 81]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.27-16.46.37:570][ 81]LogEditorDataStorage: Deinitializing
+[2026.10.27-16.46.37:571][ 81]LogEditorDataStorage: De-initializing TEDS Compatibility.
+[2026.10.27-16.46.37:571][ 81]LogEditorDataStorage: De-initialized TEDS Compatibility.
+[2026.10.27-16.46.37:571][ 81]LogEditorDataStorage: De-initializing TEDS Core.
+[2026.10.27-16.46.37:571][ 81]LogEditorDataStorage: Resetting TEDS Core.
+[2026.10.27-16.46.37:573][ 81]LogEditorDataStorage: Reset TEDS Core.
+[2026.10.27-16.46.37:573][ 81]LogEditorDataStorage: De-initialized TEDS Core.
+[2026.10.27-16.46.37:737][ 81]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.27-16.46.37:755][ 81]LogExit: Editor shut down
+[2026.10.27-16.46.37:757][ 81]LogExit: Transaction tracking system shut down
+[2026.10.27-16.46.37:833][ 81]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.10.27-16.46.37:833][ 81]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.10.27-16.46.37:837][ 81]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.10.27-16.46.37:837][ 81]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.10.27-16.46.37:954][ 81]LogExit: Object subsystem successfully closed.
+[2026.10.27-16.46.38:044][ 81]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.10.27-16.46.38:156][ 81]LogObjectProfiler: Shutdown
+[2026.10.27-16.46.38:156][ 81]LogMemoryProfiler: Shutdown
+[2026.10.27-16.46.38:156][ 81]LogNetworkingProfiler: Shutdown
+[2026.10.27-16.46.38:156][ 81]LogLoadingProfiler: Shutdown
+[2026.10.27-16.46.38:156][ 81]LogTimingProfiler: Shutdown
+[2026.10.27-16.46.38:156][ 81]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.27-16.46.38:156][ 81]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.27-16.46.38:156][ 81]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDCameraTracesExtension] ...
+[2026.10.27-16.46.38:156][ 81]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDParticleExtraDataExtension] ...
+[2026.10.27-16.46.38:156][ 81]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FPerformanceMetricsExtension] ...
+[2026.10.27-16.46.38:458][ 81]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.27-16.46.38:458][ 81]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.27-16.46.38:483][ 81]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.27-16.46.38:483][ 81]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B857DD521-4D0C-71E2-7F60-D39A3A4AD519%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.8.2-56702186%2B%2B%2BUE5%2BRelease-5.8&UserID=97791c367f36438aa2955f3d6cc4ab03%7Cf2a020d9b6fd451abd9b4c2ed1ab4434%7Cba252c9b-936e-472f-b0f5-a2bbb69669c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.27-16.46.39:008][ 81]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.27-16.46.39:008][ 81]RenderDocPlugin: plugin has been unloaded.
+[2026.10.27-16.46.39:008][ 81]LogXGEController: Cleaning working directory: C:/Users/Alumno/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.10.27-16.46.39:012][ 81]LogPakFile: Destroying PakPlatformFile
+[2026.10.27-16.46.39:260][ 81]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.27-16.46.39:408][ 81]LogExit: Exiting.
+[2026.10.27-16.46.39:430][ 81]Log file closed, 10/27/26 17:46:39
